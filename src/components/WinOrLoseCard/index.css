@@ -1,0 +1,98 @@
+/* Write your code here. */
+.result-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9796f0;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    width: 70%;
+    flex-direction: row;
+  }
+}
+
+.result-img {
+  width: 30%;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-img {
+    order: 1;
+    width: 50%;
+  }
+}
+
+.result-score-card {
+  margin-top: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .result-score-card {
+    width: 50%;
+  }
+}
+
+.game-status {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.score-word {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.result-score {
+  margin-top: 0px;
+  color: #6a59ff;
+  font-weight: bold;
+}
+
+.play-again-button {
+  border: none;
+  border-radius: 8px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-status {
+    font-size: 48px;
+  }
+
+  .score-word {
+    font-size: 32px;
+  }
+
+  .result-score {
+    font-size: 46px;
+  }
+
+  .play-again-button {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+  }
+}
